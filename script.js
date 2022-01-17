@@ -5,6 +5,6 @@ let users = [
 ];
 
 
-let user = users.map((el) => el.name + el.surname + el.id)
-alert(user)
+let user = users.map((el) => `${el.name} ${el.surname} ${el.id}`);
+alert(user);
 
